@@ -21,9 +21,11 @@ def get_event_by_name():
   print(event)
 
 
-def get_event_schedule():
-  schedule = fastf1.get_event_schedule(2021)
+# (2021)
+def get_event_schedule(year: int):
+  schedule = fastf1.get_event_schedule(year)
   print(schedule)
+  print(schedule['EventName'])
 
 
 def get_event_by_round():
