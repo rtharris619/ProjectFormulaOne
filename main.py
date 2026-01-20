@@ -1,4 +1,4 @@
-from GettingStarted import track_map as tm, tire_strategies as ts, season_summary as ss
+from GettingStarted import track_map as tm, tire_strategies as ts, season_summary as ss, gear_shifts as gs
 # start.get_event_schedule(2023)
 
 # qr.plot_results()
@@ -6,4 +6,4 @@ from GettingStarted import track_map as tm, tire_strategies as ts, season_summar
 
 # ts.plot_tire_strategies()
 
-ss.plot_season_summary()
+gs.plot_gear_shifts()
